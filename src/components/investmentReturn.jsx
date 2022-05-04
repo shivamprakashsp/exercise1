@@ -38,7 +38,6 @@ const InvestmentReturn = (props) => {
       <Row className="mx-auto">
         <Col md={3}></Col>
         <Col md={6}>
-          {investment}
           {investmentReturn !== 0 ? (
             buyDate !== sellDate ? (
               <Alert variant={"primary"}>
